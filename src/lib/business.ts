@@ -1,13 +1,13 @@
 /**
  * Single source of truth for all business information.
  * Anything wrapped in [SQUARE BRACKETS] is a placeholder that has NOT been
- * confirmed by the owner yet — replace it here and it updates site-wide.
+ * confirmed by the owner yet: replace it here and it updates site-wide.
  */
 export const business = {
   name: "__project_studio",
-  tagline: "Neat, hand-made school projects — done properly, done on time.",
+  tagline: "Neat, hand-made school projects, done properly and on time.",
   intro:
-    "__project_studio makes school projects for students in Ludhiana — charts, models, files and craft work, prepared neatly and handed over ready to submit.",
+    "__project_studio makes school projects for students in Ludhiana: charts, models, files and craft work, prepared neatly and handed over ready to submit.",
   city: "Ludhiana, Punjab",
   address: "[ADD FULL SHOP / PICKUP ADDRESS]",
   phone: "+91 78147 49588",
@@ -66,10 +66,10 @@ export const services: ServiceItem[] = [
 
 /** Gallery slots to be replaced with owner-approved photographs. */
 export const galleryPlaceholders = [
-  "[ADD PHOTO — finished chart project]",
-  "[ADD PHOTO — working model]",
-  "[ADD PHOTO — project file pages]",
-  "[ADD PHOTO — craft work]",
-  "[ADD PHOTO — work table / studio]",
-  "[ADD PHOTO — completed order ready for pickup]",
+  "[ADD PHOTO: finished chart project]",
+  "[ADD PHOTO: working model]",
+  "[ADD PHOTO: project file pages]",
+  "[ADD PHOTO: craft work]",
+  "[ADD PHOTO: work table / studio]",
+  "[ADD PHOTO: completed order ready for pickup]",
 ];

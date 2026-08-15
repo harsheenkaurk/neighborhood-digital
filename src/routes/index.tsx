@@ -25,7 +25,7 @@ const highlights = [
   {
     icon: Ruler,
     title: "Neat, hand-made work",
-    body: "Charts, models and files put together carefully — clean lettering, straight borders, tidy finishing.",
+    body: "Charts, models and files put together carefully, with clean lettering, straight borders, tidy finishing.",
   },
   {
     icon: Clock3,
@@ -86,7 +86,7 @@ function Index() {
               className="h-full w-full object-cover"
             />
             <figcaption className="border-t border-dashed border-border px-4 py-2.5 text-xs text-muted-foreground">
-              Illustrative image — replace with an owner-approved photo of actual work.
+              Illustrative image. Replace with an owner-approved photo of actual work.
             </figcaption>
           </figure>
         </div>
