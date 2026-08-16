@@ -6,7 +6,7 @@ import { ContactForm } from "@/components/site/ContactForm";
 
 const title = "Contact __project_studio | School Projects in Ludhiana";
 const description =
-  "Call +91 78147 49588 or send an enquiry to __project_studio in Ludhiana for school charts, models, files and craft projects.";
+  "Call +91 78147 49588 or send an enquiry to __project_studio in Ludhiana for projects, assignments, practical notebooks, project files and notes.";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
