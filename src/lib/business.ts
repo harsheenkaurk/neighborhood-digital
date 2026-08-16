@@ -31,22 +31,22 @@ export const services: ServiceItem[] = [
   {
     name: "Projects",
     description: "School projects made on the topic your school assigns.",
-    price: "[ADD PRICE]",
+    price: "Rs 500 (Rs 800 with a theme)",
   },
   {
     name: "Assignments",
     description: "Assignments written out neatly and completed as your teacher asks.",
-    price: "[ADD PRICE]",
+    price: "Rs 4 per page (college)",
   },
   {
     name: "Practical notebooks",
     description: "Practical notebooks written and completed for your subject.",
-    price: "[ADD PRICE]",
+    price: "Rs 300 to Rs 500",
   },
   {
     name: "Project files",
     description: "Project files prepared and arranged neatly, ready to submit.",
-    price: "[ADD PRICE]",
+    price: "Rs 300 to Rs 500",
   },
   {
     name: "Notes of all kinds",
