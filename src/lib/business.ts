@@ -7,7 +7,7 @@ export const business = {
   name: "__project_studio",
   tagline: "Neat, hand-made school projects, done properly and on time.",
   intro:
-    "__project_studio makes school projects for students in Ludhiana: charts, models, files and craft work, prepared neatly and handed over ready to submit.",
+    "__project_studio makes projects, assignments and files for students in Ludhiana, prepared neatly and handed over ready to submit.",
   city: "Ludhiana, Punjab",
   address: "[ADD FULL SHOP / PICKUP ADDRESS]",
   phone: "+91 78147 49588",
@@ -29,47 +29,37 @@ export type ServiceItem = {
 
 export const services: ServiceItem[] = [
   {
-    name: "Chart paper projects",
-    description:
-      "Hand-written and hand-decorated charts on the topic your school assigns, with clean lettering and borders.",
+    name: "Projects",
+    description: "School projects made on the topic your school assigns.",
     price: "[ADD PRICE]",
   },
   {
-    name: "Working & still models",
-    description:
-      "Science and social studies models built from cardboard, thermocol and craft material, finished and labelled.",
+    name: "Assignments",
+    description: "Assignments written out neatly and completed as your teacher asks.",
     price: "[ADD PRICE]",
   },
   {
-    name: "Project files & assignments",
-    description:
-      "Neatly written files with cover page, index and decorated pages, arranged in the order your teacher asks for.",
+    name: "Practical notebooks",
+    description: "Practical notebooks written and completed for your subject.",
     price: "[ADD PRICE]",
   },
   {
-    name: "Craft & decoration work",
-    description:
-      "Craft items, cards and display work for school activities and competitions.",
+    name: "Project files",
+    description: "Project files prepared and arranged neatly, ready to submit.",
     price: "[ADD PRICE]",
   },
   {
-    name: "[ADD SERVICE NAME]",
-    description: "[ADD OWNER-CONFIRMED SERVICE DESCRIPTION]",
-    price: "[ADD PRICE]",
-  },
-  {
-    name: "[ADD SERVICE NAME]",
-    description: "[ADD OWNER-CONFIRMED SERVICE DESCRIPTION]",
+    name: "Notes of all kinds",
+    description: "Notes of all kinds, written out for any subject or class.",
     price: "[ADD PRICE]",
   },
 ];
 
-/** Gallery slots to be replaced with owner-approved photographs. */
 export const galleryPlaceholders = [
-  "[ADD PHOTO: finished chart project]",
-  "[ADD PHOTO: working model]",
+  "[ADD PHOTO: finished project]",
+  "[ADD PHOTO: assignment pages]",
+  "[ADD PHOTO: practical notebook]",
   "[ADD PHOTO: project file pages]",
-  "[ADD PHOTO: craft work]",
-  "[ADD PHOTO: work table / studio]",
+  "[ADD PHOTO: written notes]",
   "[ADD PHOTO: completed order ready for pickup]",
 ];
