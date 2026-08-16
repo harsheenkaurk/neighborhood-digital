@@ -1,13 +1,12 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Clock3, Ruler, Sparkles, MapPin, ArrowRight } from "lucide-react";
-import heroDesk from "@/assets/hero-desk.jpg";
 import { business } from "@/lib/business";
 import { Section } from "@/components/site/Section";
 import { ServiceCards } from "@/components/site/ServiceCards";
 
-const title = "__project_studio — School Projects Made Neatly in Ludhiana";
+const title = "__project_studio | School Projects Made Neatly in Ludhiana";
 const description =
-  "__project_studio makes hand-made school charts, models, files and craft projects for students in Ludhiana, Punjab. Call +91 78147 49588.";
+  "__project_studio makes projects, assignments, practical notebooks, project files and notes for students in Ludhiana, Punjab. Call +91 78147 49588.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -25,7 +24,7 @@ const highlights = [
   {
     icon: Ruler,
     title: "Neat, hand-made work",
-    body: "Charts, models and files put together carefully, with clean lettering, straight borders, tidy finishing.",
+    body: "Projects, assignments and files put together carefully, with clean writing and tidy finishing.",
   },
   {
     icon: Clock3,
@@ -48,7 +47,7 @@ function Index() {
   return (
     <>
       <section className="border-b border-border bg-secondary/40">
-        <div className="mx-auto grid max-w-6xl items-center gap-10 px-5 py-14 sm:py-20 lg:grid-cols-[1.05fr_1fr] lg:gap-14">
+        <div className="mx-auto max-w-3xl px-5 py-14 sm:py-20">
           <div>
             <p className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs font-medium uppercase tracking-[0.16em] text-muted-foreground">
               {business.city}
@@ -76,19 +75,6 @@ function Index() {
               </Link>
             </div>
           </div>
-
-          <figure className="overflow-hidden rounded-xl border border-border bg-card shadow-[0_24px_48px_-32px_oklch(0.256_0.043_259/0.5)]">
-            <img
-              src={heroDesk}
-              alt="A hand-made school chart, a cardboard working model, pens and craft material laid out on a work table"
-              width={1600}
-              height={1200}
-              className="h-full w-full object-cover"
-            />
-            <figcaption className="border-t border-dashed border-border px-4 py-2.5 text-xs text-muted-foreground">
-              Illustrative image. Replace with an owner-approved photo of actual work.
-            </figcaption>
-          </figure>
         </div>
       </section>
 
