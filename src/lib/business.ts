@@ -7,7 +7,7 @@ export const business = {
   name: "__project_studio",
   tagline: "Neat, hand-made school projects, done properly and on time.",
   intro:
-    "__project_studio makes projects, assignments and files — for students in Ludhiana, prepared neatly and handed over ready to submit.",
+    "__project_studio — makes projects, assignments and files for students in Ludhiana, prepared neatly and handed over ready to submit.",
   city: "Ludhiana, Punjab",
   address: "[ADD FULL SHOP / PICKUP ADDRESS]",
   phone: "+91 78147 49588",
