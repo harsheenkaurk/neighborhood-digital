@@ -5,7 +5,7 @@ import { ServiceCards } from "@/components/site/ServiceCards";
 
 const title = "Projects We Make | __project_studio Ludhiana";
 const description =
-  "School charts, working and still models, project files and craft work made by __project_studio in Ludhiana. Prices shared on enquiry.";
+  "Projects, assignments, practical notebooks, project files and notes made by __project_studio in Ludhiana. Prices shared on enquiry.";
 
 export const Route = createFileRoute("/services")({
   head: () => ({

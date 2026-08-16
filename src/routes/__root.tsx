@@ -83,7 +83,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "__project_studio makes neat, hand-made school charts, models, files and craft projects for students in Ludhiana, Punjab.",
+          "__project_studio makes neat, hand-made projects, assignments, practical notebooks, project files and notes for students in Ludhiana, Punjab.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
