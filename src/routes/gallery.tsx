@@ -23,7 +23,7 @@ function GalleryPage() {
     <Section
       eyebrow="Gallery"
       title="Photos of our work"
-      intro="Photographs of finished projects have not been shared yet. Each slot below is a marked placeholder and can be swapped for a real, owner-approved photo."
+      intro="A few examples of finished practical files, notebook covers, index pages and written work."
     >
       <GalleryGrid />
     </Section>
