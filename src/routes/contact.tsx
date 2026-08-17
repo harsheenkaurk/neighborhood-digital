@@ -1,12 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Phone, Mail, MapPin, Clock3, Instagram, MessageCircle } from "lucide-react";
+import { Phone, MapPin, Instagram, MessageCircle } from "lucide-react";
 import { business } from "@/lib/business";
-import { Section, Placeholder } from "@/components/site/Section";
+import { Section } from "@/components/site/Section";
 import { ContactForm } from "@/components/site/ContactForm";
 
 const title = "Contact __project_studio | School Projects in Ludhiana";
 const description =
-  "Call +91 78147 49588 or send an enquiry to __project_studio in Ludhiana for projects, assignments, practical notebooks, project files and notes.";
+  "Call +91 78147 49588 or send an enquiry to __project_studio in Ludhiana for school projects, college assignments, practical notebooks and notes.";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
