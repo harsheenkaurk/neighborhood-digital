@@ -49,12 +49,3 @@ export const services: ServiceItem[] = [
     price: "It depends",
   },
 ];
-
-export const galleryPlaceholders = [
-  "[ADD PHOTO: finished project]",
-  "[ADD PHOTO: assignment pages]",
-  "[ADD PHOTO: practical notebook]",
-  "[ADD PHOTO: project file pages]",
-  "[ADD PHOTO: written notes]",
-  "[ADD PHOTO: completed order ready for pickup]",
-];

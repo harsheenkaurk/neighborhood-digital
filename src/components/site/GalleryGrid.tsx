@@ -1,21 +1,29 @@
-import { ImageIcon } from "lucide-react";
-import { galleryPlaceholders } from "@/lib/business";
+import gallery1 from "@/assets/gallery-1.png.asset.json";
+import gallery2 from "@/assets/gallery-2.png.asset.json";
+import gallery3 from "@/assets/gallery-3.png.asset.json";
+import gallery4 from "@/assets/gallery-4.png.asset.json";
 
-/**
- * Owner-approved photographs are not available yet, so each tile is a clearly
- * marked placeholder. To use a real photo: drop it in `src/assets/`, import it,
- * and render an <img> with descriptive alt text in place of the tile below.
- */
+const photos = [
+  { src: gallery3.url, alt: "Biology practical file page with a hand-drawn labelled diagram of the human heart" },
+  { src: gallery4.url, alt: "Decorated Mathematics lab manual cover made with cut-paper shapes" },
+  { src: gallery2.url, alt: "Hand-drawn and coloured index pages for practical notebooks" },
+  { src: gallery1.url, alt: "Neatly ruled accounts schedules written out on notebook pages" },
+];
+
 export function GalleryGrid() {
   return (
     <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-      {galleryPlaceholders.map((label) => (
+      {photos.map((photo) => (
         <li
-          key={label}
-          className="paper-grain flex aspect-4/3 flex-col items-center justify-center gap-3 rounded-lg border border-dashed border-border bg-card p-6 text-center transition-colors hover:border-accent"
+          key={photo.src}
+          className="overflow-hidden rounded-lg border border-border bg-card shadow-sm transition-colors hover:border-accent"
         >
-          <ImageIcon className="size-7 text-accent" aria-hidden="true" />
-          <span className="text-sm font-medium text-muted-foreground">{label}</span>
+          <img
+            src={photo.src}
+            alt={photo.alt}
+            loading="lazy"
+            className="aspect-4/3 w-full object-cover"
+          />
         </li>
       ))}
     </ul>
