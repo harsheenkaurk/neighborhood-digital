@@ -5,7 +5,7 @@ import { Section, Placeholder } from "@/components/site/Section";
 
 const title = "About __project_studio | School Project Makers in Ludhiana";
 const description =
-  "Who we are: a small Ludhiana studio that makes projects, assignments, practical notebooks, project files and notes for students, prepared neatly and on time.";
+  "Who we are: a small Ludhiana studio that makes school projects, college assignments, practical notebooks and notes for students, prepared neatly and on time.";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -35,13 +35,13 @@ function AboutPage() {
             </p>
             <h3 className="mt-8 text-lg font-semibold text-card-foreground">What we offer</h3>
             <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-              Projects, assignments, practical notebooks, project files and notes of all kinds.
-              Every item is made for the topic and class the school has assigned. See the{" "}
+              School projects, college assignments, practical notebooks and notes of all kinds.
+              Every item is made for the topic and class the school or college has assigned. See the{" "}
               <Link
                 to="/services"
                 className="font-medium text-foreground underline decoration-accent decoration-2 underline-offset-4"
               >
-                projects page
+                services page
               </Link>{" "}
               for the full list.
             </p>
