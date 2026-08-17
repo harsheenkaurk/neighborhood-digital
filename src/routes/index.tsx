@@ -6,7 +6,7 @@ import { ServiceCards } from "@/components/site/ServiceCards";
 
 const title = "__project_studio | School Projects Made Neatly in Ludhiana";
 const description =
-  "__project_studio makes projects, assignments, practical notebooks, project files and notes for students in Ludhiana, Punjab. Call +91 78147 49588.";
+  "__project_studio makes school projects, college assignments, practical notebooks and notes for students in Ludhiana, Punjab. Call +91 78147 49588.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -24,7 +24,7 @@ const highlights = [
   {
     icon: Ruler,
     title: "Neat, hand-made work",
-    body: "Projects, assignments and files put together carefully, with clean writing and tidy finishing.",
+    body: "School projects, college assignments and practical notebooks put together carefully, with clean writing and tidy finishing.",
   },
   {
     icon: Clock3,
@@ -97,7 +97,7 @@ function Index() {
       <Section
         tinted
         eyebrow="What we make"
-        title="Projects we take on"
+        title="Services we take on"
         intro="Prices are shared on enquiry, since they depend on size, material and how soon it is needed."
       >
         <ServiceCards limit={3} />

@@ -81,10 +81,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "__project_studio | School Projects in Ludhiana" },
       {
-        name: "description",
-        content:
-          "__project_studio makes neat, hand-made projects, assignments, practical notebooks, project files and notes for students in Ludhiana, Punjab.",
-      },
+          name: "description",
+          content:
+            "__project_studio makes neat, hand-made school projects, college assignments, practical notebooks and notes for students in Ludhiana, Punjab.",
+        },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
