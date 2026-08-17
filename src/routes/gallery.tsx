@@ -4,7 +4,7 @@ import { GalleryGrid } from "@/components/site/GalleryGrid";
 
 const title = "Gallery | __project_studio School Projects";
 const description =
-  "A gallery of projects, assignments, practical notebooks, project files and notes made by __project_studio in Ludhiana. Owner-approved photos are being added.";
+  "A gallery of school projects, college assignments, practical notebooks and notes made by __project_studio in Ludhiana. Owner-approved photos are being added.";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({

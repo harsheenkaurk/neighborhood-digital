@@ -3,9 +3,9 @@ import { business } from "@/lib/business";
 import { Section } from "@/components/site/Section";
 import { ServiceCards } from "@/components/site/ServiceCards";
 
-const title = "Projects We Make | __project_studio Ludhiana";
+const title = "Services We Offer | __project_studio Ludhiana";
 const description =
-  "Projects, assignments, practical notebooks, project files and notes made by __project_studio in Ludhiana. Prices shared on enquiry.";
+  "School projects, college assignments, practical notebooks and notes made by __project_studio in Ludhiana. Prices shared on enquiry.";
 
 export const Route = createFileRoute("/services")({
   head: () => ({
@@ -23,9 +23,9 @@ function ServicesPage() {
   return (
     <>
       <Section
-        eyebrow="Projects"
+        eyebrow="Services"
         title="What we make for students"
-        intro="Each type of work below is made to the topic your school assigns. Prices are not listed yet, so they are shown as placeholders until the owner confirms them."
+        intro="Each type of work below is made to the topic your school or college assigns."
       >
         <ServiceCards />
       </Section>
@@ -49,7 +49,7 @@ function ServicesPage() {
             },
             {
               step: "03",
-              title: "Collect it ready",
+              title: "Collect it",
               body: "The finished project is handed over before your submission date.",
             },
           ].map((s) => (
