@@ -29,14 +29,14 @@ export type ServiceItem = {
 
 export const services: ServiceItem[] = [
   {
-    name: "Projects",
+    name: "School projects",
     description: "School projects made on the topic your school assigns.",
     price: "Rs 500 (Rs 800 with a theme)",
   },
   {
-    name: "Assignments",
-    description: "Assignments written out neatly and completed as your teacher asks.",
-    price: "Rs 4 per page (college)",
+    name: "College assignments",
+    description: "College assignments written out neatly and completed as required.",
+    price: "Rs 4 per page",
   },
   {
     name: "Practical notebooks",
@@ -44,14 +44,9 @@ export const services: ServiceItem[] = [
     price: "Rs 300 to Rs 500",
   },
   {
-    name: "Project files",
-    description: "Project files prepared and arranged neatly, ready to submit.",
-    price: "Rs 300 to Rs 500",
-  },
-  {
     name: "Notes of all kinds",
     description: "Notes of all kinds, written out for any subject or class.",
-    price: "[ADD PRICE]",
+    price: "It depends",
   },
 ];
 

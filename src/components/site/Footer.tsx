@@ -21,7 +21,7 @@ export function Footer() {
             {[
               { to: "/", label: "Home" },
               { to: "/about", label: "About" },
-              { to: "/services", label: "Projects" },
+              { to: "/services", label: "Services" },
               { to: "/gallery", label: "Gallery" },
               { to: "/contact", label: "Contact" },
             ].map((l) => (
